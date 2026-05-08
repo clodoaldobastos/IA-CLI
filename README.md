@@ -12,4 +12,4 @@ Cada pasta tera um dockerfile, para criação do ambiente e readme.md com as ins
 | `.rules`        | segurança      |
 | `.hooks`        | auditoria      |
 | `opencode.json` | MCPs           |
-|_________________|________________|
+|                 |                |

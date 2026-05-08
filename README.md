@@ -4,3 +4,12 @@ A CLI (Command Line Interface) são assistentes de inteligência artificial que 
 Rodar ferramentas de IA CLI dentro de um container Docker é uma prática recomendada para manter o sistema hospedeiro limpo, isolar dependências (como Python ou Node.js) e garantir segurança ao permitir que a IA manipule arquivos em um ambiente controlado.
 
 Cada pasta tera um dockerfile, para criação do ambiente e readme.md com as instruções de compilação e uso da imagem criada.
+
+| Estrutura       | Uso            |
+| --------------- | -------------- |
+| `.agents`       | especialização |
+| `.skills`       | execução       |
+| `.rules`        | segurança      |
+| `.hooks`        | auditoria      |
+| `opencode.json` | MCPs           |
+|_________________|________________|

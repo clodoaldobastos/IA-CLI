@@ -5,6 +5,8 @@ Rodar ferramentas de IA CLI dentro de um container Docker é uma prática recome
 
 Cada pasta tera um dockerfile, para criação do ambiente e readme.md com as instruções de compilação e uso da imagem criada.
 
+# Minha recomendação da estrurura para um uso seguindo as melhores pratica.
+
 | Estrutura       | Uso            |
 | --------------- | -------------- |
 | `.agents`       | especialização |

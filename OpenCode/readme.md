@@ -12,3 +12,5 @@ docker run -it \
   -w /work \
   --name opencode-cli \
   opencode-cli:1.14.20
+
+Dentro do container digitar: opencode

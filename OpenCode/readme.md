@@ -1,5 +1,5 @@
 ## Build para criar imagem.
-* docker build -t copilot-cli:1.14.20 -f Dockerfile .
+* docker build -t opencode-cli:1.14.20 -f Dockerfile .
 
 ## Run container para uso do CLI
 

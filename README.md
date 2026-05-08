@@ -7,6 +7,8 @@ Cada pasta tera um dockerfile, para criação do ambiente e readme.md com as ins
 
 # Minha recomendação da estrurura para um uso seguindo as melhores pratica.
 
+AI Platform Engineering + AI SRE
+
 | Estrutura       | Uso            |
 | --------------- | -------------- |
 | `.agents`       | especialização |
@@ -14,4 +16,5 @@ Cada pasta tera um dockerfile, para criação do ambiente e readme.md com as ins
 | `.rules`        | segurança      |
 | `.hooks`        | auditoria      |
 | `opencode.json` | MCPs           |
-|                 |                |
+|  .graphify      | dependências   |
+|  .gitnexus      | repos/config   |

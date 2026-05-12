@@ -29,3 +29,22 @@ docker run -it \
   -e AI_SHARED=/shared \
   -e PROJECT_CONTEXT=/work/.opencode \
   opencode-cli:1.14.20
+
+Shared global
+-v ~/ai-platform/shared:/shared
+
+### Todos containers usam os mesmos:
+agents
+skills
+rules
+workflows
+MCP
+
+### Cache isolado
+-v ~/ai-platform/cache/opencode:/root/.cache
+
+## Evita conflito entre:
+OpenCode
+Copilot
+Gemini
+Claude

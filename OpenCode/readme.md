@@ -14,3 +14,17 @@ docker run -it \
   opencode-cli:1.14.20
 
 Dentro do container digitar: opencode
+
+## Execução recomendada OpenCode 'multi-cli'
+
+docker run -it \
+  --privileged \
+  --name opencode-cli \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v ~/ai-platform/shared:/shared \
+  -v ~/ai-platform/cache/opencode:/root/.cache \
+  -v ~/ai-platform/projects/meu-projeto:/work \
+  -w /work \
+  -e AI_SHARED=/shared \
+  -e PROJECT_CONTEXT=/work/.opencode \
+  opencode-cli:1.14.20

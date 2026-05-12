@@ -1,5 +1,5 @@
 ## Criando imagem 
-docker build -t copilot-cli:1.0.28 -f Dockerfile .
+docker build -t copilot-cli:1.0.30 -f Dockerfile .
 
 ## Use o script copilot.sh
 docker run -it \
@@ -8,7 +8,7 @@ docker run -it \
   -w /work \
   --net=host \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  copilot-cli:1.0.28
+  copilot-cli:1.0.30
 
 ## Container Copilot mult CLI
 
@@ -18,4 +18,4 @@ docker run -it \
   -v ~/ai-platform/cache/copilot:/root/.cache \
   -v ~/ai-platform/projects/meu-projeto:/work \
   -w /work \
-  copilot-cli
+  copilot-cli:1.0.30

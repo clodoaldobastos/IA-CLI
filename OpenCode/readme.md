@@ -16,6 +16,7 @@ docker run -it \
 Dentro do container digitar: opencode
 
 ## Execução recomendada OpenCode 'multi-cli'
+# Projeto 'https://github.com/clodoaldobastos/ai-platform/blob/main/README.md?plain=1"
 
 docker run -it \
   --privileged \
